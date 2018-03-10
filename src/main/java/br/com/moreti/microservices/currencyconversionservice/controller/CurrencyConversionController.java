@@ -15,7 +15,7 @@ import java.util.Map;
 @RestController
 public class CurrencyConversionController {
 
-    CurrencyExchangeServiceProxy proxy;
+    private CurrencyExchangeServiceProxy proxy;
 
     public CurrencyConversionController(CurrencyExchangeServiceProxy proxy) {
         this.proxy = proxy;
